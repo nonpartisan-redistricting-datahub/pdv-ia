@@ -1,0 +1,46 @@
+Iowa
+----
+Election results from IA Secretary of State: https://sos.iowa.gov/elections/results/index.html
+Precinct shapefile primarily from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The following counties used shapefiles sourced from the respective county governments instead: Dallas, Johnson, Linn, Story. The following counties were revised to reflect updated municipal boundaries using shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release: Dubuque, Marion, Muscatine, Polk, Pottawattamie, Scott.
+
+The following precincts were merged to match the 2018 election reports:
+
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Lee: Fort Madison 4A/4B, Keokuk 2A/2B, FCM/Harrison
+Polk: Grimes 2/Urbandale 12
+Tama: Toledo 1/2/3
+
+G18GOVRREY - Kim Reynolds (Republican Party)
+G18GOVDHUB - Fred Hubbell (Democratic Party)
+G18GOVLPOR - Jake Porter (Libertarian Party)
+G18GOVOSIE - Gary Siegwarth (Clear Water Party)
+G18GOVOWRI - Write-in Votes
+
+G18ATGDMIL - Tom Miller (Democratic Party)
+G18ATGLBAT - Marco Battaglia (Libertarian Party)
+G18ATGOWRI - Write-in Votes
+
+G18SOSRPAT - Paul D. Pate (Republican Party)
+G18SOSDDEJ - Deidre DeJear (Democratic Party)
+G18SOSLOFE - Jules Ofenbakh (Libertarian Party)
+G18SOSOWRI - Write-in Votes
+
+G18TRERDAV - Jeremy N. Davis (Republican Party)
+G18TREDFIT - Michael L. Fitzgerald (Democratic Party)
+G18TRELHIR - Timothy Hird (Libertarian Party)
+G18TREOWRI - Write-in Votes
+
+G18AUDRMOS - Mary Mosiman (Republican Party)
+G18AUDDSAN - Rob Sand (Democratic Party)
+G18AUDLPER - Fred Perryman (Libertarian Party)
+G18AUDOWRI - Write-in Votes
+
+G18AGRRNAI - Mike Naig (Republican Party)
+G18AGRDGAN - Tim Gannon (Democratic Party)
+G18AGRLSTE - Rick Stewart (Libertarian Party)
+G18AGROWRI - Write-in Votes
