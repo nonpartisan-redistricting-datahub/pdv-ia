@@ -3,7 +3,9 @@ Iowa
 Election results from IA Secretary of State: https://sos.iowa.gov/elections/results/index.html
 Precinct shapefile primarily from IA Secretary of State: https://sos.iowa.gov/shapefiles/
 
-The following counties used shapefiles sourced from the respective county governments instead: Dallas, Johnson, Linn, Story. The following counties were revised to reflect updated municipal boundaries using shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release: Dubuque, Marion, Muscatine, Polk, Pottawattamie, Scott.
+The following counties used shapefiles sourced from the respective county governments instead: Dallas, Johnson, Linn, Story. 
+
+The following counties were revised to reflect updated municipal boundaries using shapefiles from the U.S. Census Bureau's 2020 Redistricting Data Program Phase 2 release: Dubuque, Marion, Muscatine, Polk, Pottawattamie, Scott.
 
 The following precincts were merged to match the 2018 election reports:
 
