@@ -1,0 +1,55 @@
+Iowa
+----
+Results are divided across two files, one for general election results, one for Democratic caucus results.
+
+*ia_2016 file*
+Election results from IA Secretary of State: https://sos.iowa.gov/elections/results/index.html
+Precinct shapefile from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The following precincts were merged to match the 2016 election reports:
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Dickinson: Precinct 6/Precinct 7
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Polk: Grimes 2/Urbandale 12
+
+G16PRERTRU - Donald J. Trump (Republican Party)
+G16PREDCLI - Hillary Clinton (Democratic Party)
+G16PRELJOH - Gary Johnson (Libertarian Party)
+G16PREGSTE - Jill Stein (Green Party)
+G16PRECCAS - Darrell Castle (Constitution Party)
+G16PREOVAC - Dan Vacek (Legal Marijuana Now Party)
+G16PREOKAH - Lynn Kahn (New Independent Party Iowa)
+G16PREIMCM - Evan McMullin (Independent)
+G16PREIFUE - Rocky De La Duente (Independent)
+G16PREORIV - Gloria La Riva (Party for Socialism and Liberation)
+G16PREOWRI - Write-in Votes
+
+G16USSRGRA - Chuck Grassley (Republican Party)
+G16USSDJUD - Patty Judge (Democratic Party)
+G16USSLALD - Charles Aldrich (Libertarian Party)
+G16USSOHEN - Jim Hennager (New Independent Party Iowa)
+G16USSILUI - Michael Luick-Thrams (Independent)
+G16USSOWRI - Write-in Votes
+
+*ia_2016_demcaucus file*
+Election results from IA Democratic Party: http://iowademocrats.org/final-precinct-results-for-2016-iowa-democratic-party-caucuses/ (original url)
+Precinct shapefile from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The Iowa Democratic Party did not report individual vote tallies for the 2016 Iowa caucuses. The caucus results are State Delegate Equivalents that represent the number of state convention delegates that the candidates received based on the caucus results. The SDE figures are multiplied by 100 following the standard practice of the Associated Press since precinct-level SDE figures are provided as very small fractions in the actual caucus reports.
+
+The precinct results do not include the state delegates awarded via satellite locations for participants with hardship exceptions or via tele-caucus for voters abroad. The satellite locations awarded 2 state delegates to Hillary Clinton and 1 state delegate to Bernie Sanders. The tele-caucus awarded 1 state delegate to Hillary Clinton and 1 state delegate to Bernie Sanders.
+
+The following precincts were merged to match the 2016 caucus results:
+
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Polk: Grimes 2/Urbandale 12
+
+C16PREDCLI - Hillary Clinton
+C16PREDSAN - Bernie Sanders
+C16PREDOMA - Martin O'Malley
+C16PREDUNC - Uncommitted
