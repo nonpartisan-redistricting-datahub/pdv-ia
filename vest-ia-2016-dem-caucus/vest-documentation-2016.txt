@@ -1,0 +1,22 @@
+Iowa
+----
+*ia_2016_demcaucus file*
+Election results from IA Democratic Party: http://iowademocrats.org/final-precinct-results-for-2016-iowa-democratic-party-caucuses/ (original url)
+Precinct shapefile from IA Secretary of State: https://sos.iowa.gov/shapefiles/
+
+The Iowa Democratic Party did not report individual vote tallies for the 2016 Iowa caucuses. The caucus results are State Delegate Equivalents that represent the number of state convention delegates that the candidates received based on the caucus results. The SDE figures are multiplied by 100 following the standard practice of the Associated Press since precinct-level SDE figures are provided as very small fractions in the actual caucus reports.
+
+The precinct results do not include the state delegates awarded via satellite locations for participants with hardship exceptions or via tele-caucus for voters abroad. The satellite locations awarded 2 state delegates to Hillary Clinton and 1 state delegate to Bernie Sanders. The tele-caucus awarded 1 state delegate to Hillary Clinton and 1 state delegate to Bernie Sanders.
+
+The following precincts were merged to match the 2016 caucus results:
+
+Appanoose: Udell/Union
+Black Hawk: Cedar Falls W2P2/Cedar Falls Twp
+Des Moines: Burlington 1/Tama, Burlington 8/Concordia
+Fremont: Hamburg/Washington, Farragut/Shenandoah1
+Polk: Grimes 2/Urbandale 12
+
+C16PREDCLI - Hillary Clinton
+C16PREDSAN - Bernie Sanders
+C16PREDOMA - Martin O'Malley
+C16PREDUNC - Uncommitted
