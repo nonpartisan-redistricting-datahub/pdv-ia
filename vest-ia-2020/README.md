@@ -1,66 +1,95 @@
-# vest-ga-2020
+# vest-ia-2020
 
-Our final validation report for this dataset is available [here](https://redistrictingdatahub.org/dataset/vest-2020-georgia-precinct-boundaries-and-election-results-shapefile/). 
+Our final validation report for this dataset is available [here](https://redistrictingdatahub.org/dataset/vest-2020-iowa-precinct-and-election-results/). 
 
 We do not have the raw data sources available on this Github due to file constraints, but we are happy to share them if needed. 
 
 Please reach out to info@redistrictingdatahub.org to reach our support team if you have any questions.
 
 ## **Raw from source:**
-- VEST Georgia 2020 Data File  
-  - Accessed: 12/16/2021, Source: VEST on the Harvard Dataverse
-  - https://dataverse.harvard.edu/file.xhtml?fileId=4863164&version=28.0
 
-- VEST Georgia 2020 Documentation
-  - Accessed: 12/16/2021, Source: VEST on the Harvard Dataverse
-  - https://dataverse.harvard.edu/file.xhtml?fileId=5595328&version=28.0
+### Accessible files: 
 
-- General Election results for Georgia, November 3, 2020:
-  - Accessed, 06/07/2021, Source: Georgia SOS Elections Division
-  - https://results.enr.clarityelections.com/GA/105369/web.264614/#/summary
-  - Note: Precinct-level results are only available county-by-county. From the link above, click “Results by County”, and for every county, click its name and then click the download button next to “Detail XML” in the “Reports” section. 
+- VEST Iowa 2020 Data File  
+  - Accessed: 11/10/21, Source: VEST on the Harvard Dataverse
+  - https://dataverse.harvard.edu/file.xhtml?fileId=4789403&version=24.0# 
 
-- General Election - Recount results for Georgia, November 3, 2020:
-  - Accessed, 06/07/2021, Source: Georgia SOS Elections Division
-  - https://results.enr.clarityelections.com/GA/107231/web.264614/#/summary
-  - Note: Precinct-level results are only available county-by-county. From the link above, click “Results by County”, and for every county, click its name and then click the download button next to “Detail XML” in the “Reports” section. 
+- VEST Iowa 2020 Documentation
+  - Accessed: 11/10/21, Source: VEST on the Harvard Dataverse
+  - https://dataverse.harvard.edu/file.xhtml?fileId=5371928&version=24.0#
 
-- Runoff Election:
-  - Accessed, 12/16/2021, Source: Georgia SOS Elections Division
-  - https://results.enr.clarityelections.com/GA/107556/web.264614/#/summary
-  - Note: Precinct-level results are only available county-by-county. From the link above, click “Results by County”, and for every county, click its name and then click the download button next to “Detail XML” in the “Reports” section. Four counties, Camden, Chattooga, Grady, and Greene, did not have a "Detail XML" file available, and these counties' precinct-level votes were added to a spreadsheet by hand.
+- Iowa Statewide Precinct Layer
+  - Accessed: 11/15/21, Source: Iowa Secretary of State
+  - https://sos.iowa.gov/elections/maps/shapefiles.html
+  - Select the “Precinct and District Shapefiles” link, then click the “Statewide Precinct Layer”. Shapefile is in an archive called “pcts_04172014_0908am.zip”.
 
-- Precinct Shapefile for Georgia
-  - Accessed, 06/07/2021, Source: Georgia General Assembly
-  - https://www.legis.ga.gov/joint-office/reapportionment
-  - Note: To download this file, click “Precincts” and then “Statewide Voting Precincts (2020)”
+- Iowa County Boundaries Shapefile
+  - Accessed: 11/10/21, Source: State of Iowa
+  - https://open-iowa.opendata.arcgis.com/datasets/iowa::iowa-county-boundaries 
 
-- U.S. Census Bureau 2020 Redistricting Data Program Phase 2 release
-  - Accessed: 06/07/21, Source: Census
-  - https://www.census.gov/geo/partnerships/pvs/partnership19v2/st13_ga.html
-  - Note: Only Cobb, DeKalb, and Gwinnett counties are needed from this source.
+- 2020 Census Redistricting Data (P.L. 94-171) Shapefiles for Muscatine, Woodbury, and Marion Counties. 
+  - Date accessed: 11/17/21, Source: U.S. Census Bureau
+  - https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=All+Lines 
+  - Select “Iowa” from the dropdown menu. On the next page, select “Muscatine”, “Woodbury”, and/or “Marion” in the county dropdown menu.  
 
-- Precinct Shapefile for Forsyth County
-  - Accessed: 06/08/2021, Source: Forsyth County GIS Office
-  - https://geo-forsythcoga.opendata.arcgis.com/datasets/forsythcoga::voting-precinct/about
-  - Note: Click “Download” and then under “Shapefile” click “Download” again.
+- Dallas County Precinct Shapefiles
+  - Accessed: 11/17/21, Source: Dallas County GIS
+  - http://geodallas.dallascountyiowa.gov/SpatialDownload/Default.aspx
+  - Select the “VotingPrecincts.shp” checkbox to indicate you would like to download it, then click the “Create Zip File” button. When the “Download Zip File” link appears below it, click it to download the precinct shapefiles.
 
-- Precinct Shapefile for Fulton County
-  - Accessed: 06/08/2021, Source: Fulton County GIS Office
-  - https://gisdata.fultoncountyga.gov/datasets/fulcogis::voting-precincts/about
-  - Note: Click “Download” and then under “Shapefile” click “Download” again. 
+- Dubuque County Precinct Map
+  - Accessed: 11/17/21, Source: Dubuque County GIS
+  - https://www.dubuquecountyiowa.gov/205/GIS-Mapping 
+  - Under the “Downloadable Maps” subheader, select the “City Precincts (PDF)” and “Election Precincts (PDF)” links. 
 
-- Chattooga County USGS Topographical Map #1
-  - Accessed: 02/10/21, Source: USGS
-  - https://apps.nationalmap.gov/downloader/#/
-  - Note: Scroll under "Data" and select "Topo Map Data and Topo Stylesheet" and then change the file format to "Shapefile". Next, next to "Area of Interest", click "Selectable Polygon" and then "County or Equivalent" and then either type in on the map or navigate to "Chattooga County". Then, under "Area of Interest", click the blue "Search Products". For this file, download: "USGS Topo Map Vector Data (Vector) 22375 Jamestown, Alabama 20180619 for 7.5 x 7.5 minute Shapefile".
+- Johnson County Precinct Shapefiles
+  - Accessed: 11/17/21, Source: IowaGISData.org
+  - https://www.iowagisdata.org 
+  - Site is referenced by the Johnson County Government website as the preferred source for all of the county’s vector data. Shapefiles were downloaded from the “shp_Precincts_All_2013.zip” archive in the “Johnson” folder.
 
-- Chattooga County USGS Topographical Map #2
-  - Accessed: 02/10/21, Source: USGS
-  - https://apps.nationalmap.gov/downloader/#/
-  - Note: Same as above, but download "USGS Topo Map Vector Data (Vector) 12652 Dougherty Gap, Georgia 20200914 for 7.5 x 7.5 minute FileGDB 10.1".
+- Linn County Precinct Maps
+  - Accessed: 11/17/21, Source: Linn County Government
+  - https://www.linncountyiowa.gov/372/Precinct-Maps 
 
-Note: In their documentation, VEST mentions a handful of local government files that they used as part of shapefile merges. We did not attempt to locate these files as and in many cases, it turned out they were not needed.
+- Polk County Precinct Maps
+  - Accessed: 11/17/21, Source: Polk County Government
+  - https://www.polkcountyiowa.gov/county-auditor/election/election-maps/#District%20Map%20Packages 
+  - Under the “Precinct Maps” subheader, click the “2012-2021 Des Moines Precincts” and “2012-2021 Polk County Precincts” links. 
+
+- Polk County Precinct Shapefiles
+  - Accessed: 11/18/21, Source: Polk County Government
+  - Requested by email
+
+- Pottawattamie County Precinct Shapefiles
+  - Accessed: 11/17/21, Source: IowaGISData.org
+  - Shapefiles downloaded from the “shp_Elections.zip” file available in the “Pottawattamie” folder. 
+  - PDF Maps are available from the county website here: https://elections.pottcounty-ia.gov/vote/precincts/ 
+
+- Scott County Precinct Maps
+  - Accessed: 11/17/21, Source: Scott County Government
+  - https://www.scottcountyiowa.gov/auditor/precincts/pdfs?folder=auditor-precinct-maps/Scott_County_Precinct_Maps/Overall_Map 
+
+- Story County Precinct Maps
+  - Accessed: 11/17/21, Source: Story County Government
+  - https://www.storycountyiowa.gov/1172/Jurisdictional-Maps 
+  - Ames (PDF) and Story County (PDF)
+
+- Story County Precinct Shapefiles
+  - Accessed: 11/19/21, Source: Story County Government
+  - Requested via email
+
+- Mitchell County Precinct Maps
+  - Accessed: 11/17/21, Source: Mitchell County Government
+  - https://mitchellcounty.iowa.gov/maps/ 
+  - Click the “Mitchell County Precinct Boundary Map” link under “Additional Resources”
+
+### Inaccessible files: 
+
+- Dubuque County Precinct Shapefiles
+  - County government charges for access to these files.
+
+- Scott County Precinct Shapefiles
+  - County government did not respond to requests for these files. 
 
 ## **File Processing:**
 - Processing and Validation Steps: \
