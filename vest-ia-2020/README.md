@@ -18,6 +18,11 @@ Please reach out to info@redistrictingdatahub.org to reach our support team if y
   - Accessed: 11/10/21, Source: VEST on the Harvard Dataverse
   - https://dataverse.harvard.edu/file.xhtml?fileId=5371928&version=24.0#
 
+- Iowa Precinct-Level Election Results
+  - Accessed: 11/10/21, Source: Iowa Secretary of State
+  - https://sos.iowa.gov/elections/results/precinctvotetotals2020primary.html
+  - Iowa SOS distributes precinct-level election data in 99 different spreadsheet files, one for each county in Iowa. Scott County's election results are distributed only as a PDF and were digitized by hand.
+
 - Iowa Statewide Precinct Layer
   - Accessed: 11/15/21, Source: Iowa Secretary of State
   - https://sos.iowa.gov/elections/maps/shapefiles.html
